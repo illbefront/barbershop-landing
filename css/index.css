@@ -367,6 +367,7 @@ footer .soc-medias {
 /*---*/
 
 @media screen and (max-width: 1100px) {
+  /*common*/
   body {
     padding-top: 50px;
   }
@@ -382,9 +383,11 @@ footer .soc-medias {
   .container {
     padding: 0 25px;
   }
+  /*---*/
 }
 
 @media screen and (max-width: 820px) {
+  /*prices*/
   .prices .price-boxes {
     margin-top: 25px;
     gap: 0;
@@ -397,18 +400,24 @@ footer .soc-medias {
   .prices .price-boxes ul li {
     font-size: 18px;
   }
+  /*---*/
 
+  /*locations*/
   .locations {
     grid-template-columns: 1fr 1fr;
   }
+  /*---*/
 }
 
 @media screen and (max-width: 420px) {
+  /*common*/
   h1 {
     font-size: 40px;
     line-height: 40px;
   }
+  /*---*/
 
+  /*prices*/
   .prices h2 {
     display: flex;
     flex-direction: column;
@@ -425,7 +434,9 @@ footer .soc-medias {
   .prices .price-boxes ul li {
     font-size: 15px;
   }
+  /*---*/
 
+  /*about*/
   .about .content {
     display: block;
   }
@@ -433,4 +444,5 @@ footer .soc-medias {
   .about .content * + * {
     margin-top: 25px;
   }
+  /*---*/
 }
