@@ -409,6 +409,15 @@ footer .soc-medias {
     line-height: 40px;
   }
 
+  .prices h2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices h2 .divider {
+    display: none;
+  }
+
   .prices .price-boxes {
     grid-template-columns: 1fr;
   }
