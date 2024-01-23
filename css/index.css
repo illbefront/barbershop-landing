@@ -554,9 +554,22 @@ footer .soc-medias {
   padding-left: 10px;
 }
 
+.locations_v2 .map {
+  height: 76svh;
+  background-image: url("../assets/images/map/map.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
 @media screen and (max-width: 1100px) {
   .prices_v2 {
     padding: 50px 0;
+  }
+
+  .locations_v2 .map {
+    height: 70svh;
+    background-size: cover;
   }
 }
 
